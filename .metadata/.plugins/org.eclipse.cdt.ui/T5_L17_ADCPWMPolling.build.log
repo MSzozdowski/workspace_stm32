@@ -1,0 +1,10 @@
+20:53:34 **** Incremental Build of configuration Debug for project T5_L17_ADCPWMPolling ****
+make -j4 all 
+arm-none-eabi-size   T5_L17_ADCPWMPolling.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13052	     20	   1788	  14860	   3a0c	T5_L17_ADCPWMPolling.elf
+Finished building: default.size.stdout
+ 
+
+20:53:35 Build Finished. 0 errors, 0 warnings. (took 382ms)
+

@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;T3_L19_UART_TransferPolling&apos;" deleteContents="true" description="Delete resource &apos;T3_L19_UART_TransferPolling&apos;" element1="/T3_L19_UART_TransferPolling" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1641499119982"/>
+</session>

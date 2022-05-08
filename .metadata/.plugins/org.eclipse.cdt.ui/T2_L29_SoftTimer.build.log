@@ -1,0 +1,20 @@
+18:53:59 **** Incremental Build of configuration Debug for project T2_L29_SoftTimer ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "T2_L29_SoftTimer.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\workspace_stm32\T2_L29_SoftTimer\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T2_L29_SoftTimer.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: T2_L29_SoftTimer.elf
+ 
+arm-none-eabi-size   T2_L29_SoftTimer.elf 
+arm-none-eabi-objdump -h -S  T2_L29_SoftTimer.elf  > "T2_L29_SoftTimer.list"
+arm-none-eabi-objcopy  -O binary  T2_L29_SoftTimer.elf  "T2_L29_SoftTimer.bin"
+   text	   data	    bss	    dec	    hex	filename
+   5540	     20	   1652	   7212	   1c2c	T2_L29_SoftTimer.elf
+Finished building: default.size.stdout
+ 
+Finished building: T2_L29_SoftTimer.bin
+Finished building: T2_L29_SoftTimer.list
+ 
+ 
+
+18:54:00 Build Finished. 0 errors, 0 warnings. (took 827ms)
+

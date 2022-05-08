@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T5_L23_ADCInjectedRegular/T5_L23_ADCInjected.ioc&apos; to &apos;T5_L23_ADCInjectedRegular.ioc&apos;" description="Rename resource &apos;T5_L23_ADCInjected.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="T5_L23_ADCInjected.ioc" name="T5_L23_ADCInjectedRegular.ioc" stamp="1643541062714" updateReferences="true"/>
+</session>

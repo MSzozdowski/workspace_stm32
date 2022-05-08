@@ -1,0 +1,5 @@
+parser_complex.c:21:6:Parser_TakeLine	24	static
+parser_complex.c:42:13:Parser_ParseLED	16	static
+parser_complex.c:66:13:Parser_ParseENV	72	static
+parser_complex.c:102:13:Parser_ParseNAME	80	static
+parser_complex.c:133:6:Parser_Parse	24	static

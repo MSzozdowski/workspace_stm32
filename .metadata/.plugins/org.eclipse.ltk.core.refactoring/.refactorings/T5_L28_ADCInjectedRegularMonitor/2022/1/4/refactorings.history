@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T5_L28_ADCInjectedRegularMonitor/T5_L27_ADCInjectedRegularMicrophone.ioc&apos; to &apos;T5_L28_ADCInjectedRegularMonitor.ioc&apos;" description="Rename resource &apos;T5_L27_ADCInjectedRegularMicrophone.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="T5_L27_ADCInjectedRegularMicrophone.ioc" name="T5_L28_ADCInjectedRegularMonitor.ioc" stamp="1643546677587" updateReferences="true"/>
+</session>

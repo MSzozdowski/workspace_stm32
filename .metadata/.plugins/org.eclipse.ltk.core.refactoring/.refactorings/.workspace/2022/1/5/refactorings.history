@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T5_L8_ADCSingleConversionDMA&apos; to &apos;T5_L9_ADCSingleConversionDMA&apos;" description="Rename resource &apos;T5_L8_ADCSingleConversionDMA&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="/T5_L8_ADCSingleConversionDMA" name="T5_L9_ADCSingleConversionDMA" stamp="1643473539773" updateReferences="true"/>
+</session>

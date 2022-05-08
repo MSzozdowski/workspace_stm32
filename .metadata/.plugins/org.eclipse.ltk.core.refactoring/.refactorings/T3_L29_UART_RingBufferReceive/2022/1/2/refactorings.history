@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T3_L29_UART_RingBufferReceive/T3_L28_RingBuffer.ioc&apos; to &apos;T3_L29_UART_RingBufferReceive.ioc&apos;" description="Rename resource &apos;T3_L28_RingBuffer.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="T3_L28_RingBuffer.ioc" name="T3_L29_UART_RingBufferReceive.ioc" stamp="1641568081624" updateReferences="true"/>
+</session>

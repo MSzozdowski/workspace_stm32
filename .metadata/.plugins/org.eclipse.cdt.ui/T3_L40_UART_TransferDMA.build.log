@@ -1,0 +1,20 @@
+11:05:04 **** Incremental Build of configuration Debug for project T3_L40_UART_TransferDMA ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "T3_L40_UART_TransferDMA.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\workspace_stm32\T3_L40_UART_TransferDMA\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T3_L40_UART_TransferDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: T3_L40_UART_TransferDMA.elf
+ 
+arm-none-eabi-size   T3_L40_UART_TransferDMA.elf 
+arm-none-eabi-objdump -h -S  T3_L40_UART_TransferDMA.elf  > "T3_L40_UART_TransferDMA.list"
+arm-none-eabi-objcopy  -O binary  T3_L40_UART_TransferDMA.elf  "T3_L40_UART_TransferDMA.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11760	    120	   1768	  13648	   3550	T3_L40_UART_TransferDMA.elf
+Finished building: default.size.stdout
+ 
+Finished building: T3_L40_UART_TransferDMA.bin
+ 
+Finished building: T3_L40_UART_TransferDMA.list
+ 
+
+11:05:05 Build Finished. 0 errors, 0 warnings. (took 938ms)
+

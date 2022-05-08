@@ -1,0 +1,2 @@
+parser_simple.c:14:6:Parser_TakeLine	24	static
+parser_simple.c:35:6:Parser_Parse	16	static

@@ -1,0 +1,10 @@
+21:34:38 **** Incremental Build of configuration Debug for project T3_L23_UART_TransferInterrupt ****
+make -j4 all 
+arm-none-eabi-size   T3_L23_UART_TransferInterrupt.elf 
+   text	   data	    bss	    dec	    hex	filename
+  10208	    120	   1688	  12016	   2ef0	T3_L23_UART_TransferInterrupt.elf
+Finished building: default.size.stdout
+ 
+
+21:34:39 Build Finished. 0 errors, 0 warnings. (took 428ms)
+

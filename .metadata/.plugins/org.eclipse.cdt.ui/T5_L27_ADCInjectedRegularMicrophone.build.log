@@ -1,0 +1,10 @@
+17:03:20 **** Incremental Build of configuration Debug for project T5_L27_ADCInjectedRegularMicrophone ****
+make -j4 all 
+arm-none-eabi-size   T5_L27_ADCInjectedRegularMicrophone.elf 
+   text	   data	    bss	    dec	    hex	filename
+  15968	     20	   2084	  18072	   4698	T5_L27_ADCInjectedRegularMicrophone.elf
+Finished building: default.size.stdout
+ 
+
+17:03:21 Build Finished. 0 errors, 0 warnings. (took 359ms)
+

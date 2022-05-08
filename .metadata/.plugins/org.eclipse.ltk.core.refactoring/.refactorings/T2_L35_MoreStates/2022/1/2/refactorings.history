@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T2_L35_MoreStates/T2_L33_SimpleStateMachine.ioc&apos; to &apos;T2_L35_MoreStates.ioc&apos;" description="Rename resource &apos;T2_L33_SimpleStateMachine.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="T2_L33_SimpleStateMachine.ioc" name="T2_L35_MoreStates.ioc" stamp="1641468872091" updateReferences="true"/>
+</session>

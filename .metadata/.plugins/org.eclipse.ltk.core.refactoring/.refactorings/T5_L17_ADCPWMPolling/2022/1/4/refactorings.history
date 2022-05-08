@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T5_L17_ADCPWMPolling/T5_L17_ADCPWMPolling.ioc&apos; to &apos;T5_L17_ADCPWMInterrupt.ioc&apos;" description="Rename resource &apos;T5_L17_ADCPWMPolling.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="T5_L17_ADCPWMPolling.ioc" name="T5_L17_ADCPWMInterrupt.ioc" stamp="1643484881936" updateReferences="true"/>
+</session>

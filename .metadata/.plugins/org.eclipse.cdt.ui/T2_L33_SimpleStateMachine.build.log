@@ -1,0 +1,10 @@
+12:19:41 **** Incremental Build of configuration Debug for project T2_L33_SimpleStateMachine ****
+make -j4 all 
+arm-none-eabi-size   T2_L33_SimpleStateMachine.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5824	     20	   1660	   7504	   1d50	T2_L33_SimpleStateMachine.elf
+Finished building: default.size.stdout
+ 
+
+12:19:41 Build Finished. 0 errors, 0 warnings. (took 312ms)
+

@@ -1,0 +1,10 @@
+16:23:55 **** Incremental Build of configuration Debug for project T3_L29_UART_RingBufferReceive ****
+make -j4 all 
+arm-none-eabi-size   T3_L29_UART_RingBufferReceive.elf 
+   text	   data	    bss	    dec	    hex	filename
+   8032	     20	   1652	   9704	   25e8	T3_L29_UART_RingBufferReceive.elf
+Finished building: default.size.stdout
+ 
+
+16:23:55 Build Finished. 0 errors, 0 warnings. (took 330ms)
+

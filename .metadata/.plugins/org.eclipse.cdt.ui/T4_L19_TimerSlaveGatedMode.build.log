@@ -1,0 +1,10 @@
+20:46:26 **** Incremental Build of configuration Debug for project T4_L19_TimerSlaveGatedMode ****
+make -j4 all 
+arm-none-eabi-size   T4_L19_TimerSlaveGatedMode.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9264	     20	   1780	  11064	   2b38	T4_L19_TimerSlaveGatedMode.elf
+Finished building: default.size.stdout
+ 
+
+20:46:26 Build Finished. 0 errors, 0 warnings. (took 321ms)
+

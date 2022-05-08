@@ -1,0 +1,10 @@
+20:31:46 **** Incremental Build of configuration Debug for project T4_L09_TimerInputCapture ****
+make -j4 all 
+arm-none-eabi-size   T4_L09_TimerInputCapture.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9552	     20	   1716	  11288	   2c18	T4_L09_TimerInputCapture.elf
+Finished building: default.size.stdout
+ 
+
+20:31:46 Build Finished. 0 errors, 0 warnings. (took 326ms)
+

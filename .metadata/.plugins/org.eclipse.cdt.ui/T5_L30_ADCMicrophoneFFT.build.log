@@ -1,0 +1,10 @@
+20:36:34 **** Incremental Build of configuration Debug for project T5_L30_ADCMicrophoneFFT ****
+make -j4 all 
+arm-none-eabi-size   T5_L30_ADCMicrophoneFFT.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 100516	    124	  12236	 112876	  1b8ec	T5_L30_ADCMicrophoneFFT.elf
+Finished building: default.size.stdout
+ 
+
+20:36:34 Build Finished. 0 errors, 0 warnings. (took 309ms)
+

@@ -1,0 +1,10 @@
+16:01:58 **** Incremental Build of configuration Debug for project T3_L28_RingBuffer ****
+make -j4 all 
+arm-none-eabi-size   T3_L28_RingBuffer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5796	     20	   1652	   7468	   1d2c	T3_L28_RingBuffer.elf
+Finished building: default.size.stdout
+ 
+
+16:01:58 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

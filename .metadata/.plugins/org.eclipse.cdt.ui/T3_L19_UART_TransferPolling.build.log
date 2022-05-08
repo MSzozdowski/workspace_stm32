@@ -1,0 +1,10 @@
+21:08:58 **** Incremental Build of configuration Debug for project T3_L19_UART_TransferPolling ****
+make -j4 all 
+arm-none-eabi-size   T3_L19_UART_TransferPolling.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6136	     20	   1636	   7792	   1e70	T3_L19_UART_TransferPolling.elf
+Finished building: default.size.stdout
+ 
+
+21:08:58 Build Finished. 0 errors, 0 warnings. (took 325ms)
+

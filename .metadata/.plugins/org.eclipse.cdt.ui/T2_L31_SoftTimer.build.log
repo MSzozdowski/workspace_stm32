@@ -1,0 +1,10 @@
+20:10:38 **** Incremental Build of configuration Debug for project T2_L31_SoftTimer ****
+make -j4 all 
+arm-none-eabi-size   T2_L31_SoftTimer.elf 
+   text	   data	    bss	    dec	    hex	filename
+   5540	     20	   1652	   7212	   1c2c	T2_L31_SoftTimer.elf
+Finished building: default.size.stdout
+ 
+
+20:10:38 Build Finished. 0 errors, 0 warnings. (took 258ms)
+

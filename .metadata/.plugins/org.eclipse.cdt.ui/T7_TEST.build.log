@@ -1,0 +1,10 @@
+20:26:57 **** Incremental Build of configuration Debug for project T7_TEST ****
+make -j4 all 
+arm-none-eabi-size   T7_TEST.elf 
+   text	   data	    bss	    dec	    hex	filename
+   7220	     20	   1636	   8876	   22ac	T7_TEST.elf
+Finished building: default.size.stdout
+ 
+
+20:26:58 Build Finished. 0 errors, 0 warnings. (took 1s.426ms)
+

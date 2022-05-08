@@ -1,0 +1,10 @@
+11:58:08 **** Incremental Build of configuration Debug for project T3_L41_UART_ReceiveDMA ****
+make -j4 all 
+arm-none-eabi-size   T3_L41_UART_ReceiveDMA.elf 
+   text	   data	    bss	    dec	    hex	filename
+   9648	     20	   1740	  11408	   2c90	T3_L41_UART_ReceiveDMA.elf
+Finished building: default.size.stdout
+ 
+
+11:58:09 Build Finished. 0 errors, 0 warnings. (took 310ms)
+

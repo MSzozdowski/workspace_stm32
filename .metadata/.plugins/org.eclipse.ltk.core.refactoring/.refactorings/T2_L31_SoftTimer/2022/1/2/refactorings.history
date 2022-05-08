@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;T2_L29_SoftTimer/T2_L29_Button.ioc&apos; to &apos;T2_L29_SoftTimer.ioc&apos;" description="Rename resource &apos;T2_L29_Button.ioc&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="T2_L29_Button.ioc" name="T2_L29_SoftTimer.ioc" stamp="1641404457847" updateReferences="true"/>
+</session>
