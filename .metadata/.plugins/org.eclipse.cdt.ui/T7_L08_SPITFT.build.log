@@ -1,0 +1,10 @@
+19:03:47 **** Build of configuration Debug for project T7_L08_SPITFT ****
+make -j4 all 
+arm-none-eabi-size   T7_L08_SPITFT.elf 
+   text	   data	    bss	    dec	    hex	filename
+  54936	     20	   1732	  56688	   dd70	T7_L08_SPITFT.elf
+Finished building: default.size.stdout
+ 
+
+19:03:47 Build Finished. 0 errors, 0 warnings. (took 435ms)
+

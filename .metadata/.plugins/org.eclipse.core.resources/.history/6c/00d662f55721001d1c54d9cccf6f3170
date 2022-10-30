@@ -1,0 +1,47 @@
+/*
+ * paint.c
+ *
+ *  Created on: Aug 21, 2022
+ *      Author: Michal
+ */
+#include "main.h"
+#include "paint.h"
+#include "TFT_ILI9341.h"
+#include "XPT2046.h"
+#include "GFX_Color.h"
+#include "GFX_EnhancedFonts.h"
+
+typedef enum
+{
+	PAINT_INIT, // Build GUI
+	PAINT_DRAW, // Read Touch and draw pixels
+	PAINT_CLEAR // Clear drawing area
+} PaintState;
+
+PaintState State = PAINT_INIT;
+
+void InitScreen(void)
+{
+	ILI9341_ClearDisplay(ILI9341_WHITE);
+	EF_PutString((const uint8_t*)"Paint", 5, 2, ILI9341_BLACK, BG_TRANSPARENT, ILI9341_GREEN);
+	GFX_DrawRectangle(DRAW_WINDOW_X_START, DRAW_WINDOW_Y_START, DRAW_WINDOW_X_STOP, DRAW_WINDOW_Y_STOP, ILI9341_BLACK);
+	ColorIndicator();
+
+}
+
+void Paint(void)
+{
+	switch(State)
+	{
+	case PAINT_INIT:
+		InitScreen();
+		break;
+	case PAINT_DRAW:
+		DrawScreen();
+		  break;
+	case PAINT_CLEAR:
+		DrawClear();
+		break;
+	}
+
+}

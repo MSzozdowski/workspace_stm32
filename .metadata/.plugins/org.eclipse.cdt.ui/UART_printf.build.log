@@ -1,0 +1,31 @@
+21:04:42 **** Incremental Build of configuration Debug for project UART_printf ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
+../Core/Src/main.c: In function '__io_putchar':
+../Core/Src/main.c:50:2: warning: implicit declaration of function 'send_char' [-Wimplicit-function-declaration]
+   50 |  send_char(ch);
+      |  ^~~~~~~~~
+../Core/Src/main.c: At top level:
+../Core/Src/main.c:54:6: warning: conflicting types for 'send_char'
+   54 | void send_char(char c)
+      |      ^~~~~~~~~
+../Core/Src/main.c:50:2: note: previous implicit declaration of 'send_char' was here
+   50 |  send_char(ch);
+      |  ^~~~~~~~~
+arm-none-eabi-gcc -o "UART_printf.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\workspace_stm32\UART_printf\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="UART_printf.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: UART_printf.elf
+ 
+arm-none-eabi-size   UART_printf.elf 
+arm-none-eabi-objdump -h -S  UART_printf.elf  > "UART_printf.list"
+arm-none-eabi-objcopy  -O binary  UART_printf.elf  "UART_printf.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11056	    120	   1664	  12840	   3228	UART_printf.elf
+Finished building: default.size.stdout
+ 
+Finished building: UART_printf.bin
+ 
+Finished building: UART_printf.list
+ 
+
+21:04:43 Build Finished. 0 errors, 2 warnings. (took 985ms)
+

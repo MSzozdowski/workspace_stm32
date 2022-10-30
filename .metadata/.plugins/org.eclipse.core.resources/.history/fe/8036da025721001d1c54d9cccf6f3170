@@ -1,0 +1,19 @@
+/*
+ * paint.c
+ *
+ *  Created on: Aug 21, 2022
+ *      Author: Michal
+ */
+
+typedef enum
+{
+	PAINT_INIT, // Build GUI
+	PAINT_DRAW, // Read Touch and draw pixels
+	PAINT_CLEAR // Clear drawing area
+} PaintState;
+
+
+void Paint(void)
+{
+
+}

@@ -1,0 +1,21 @@
+15:45:13 **** Build of configuration Debug for project T6_L15_I2C_OLED ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/GFX_BW.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/GFX_BW.d" -MT"Core/Src/GFX_BW.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/GFX_BW.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "T6_L15_I2C_OLED.elf" @"objects.list"   -mcpu=cortex-m4 -T"D:\workspace_stm32\T6_L15_I2C_OLED\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T6_L15_I2C_OLED.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: T6_L15_I2C_OLED.elf
+ 
+arm-none-eabi-size   T6_L15_I2C_OLED.elf 
+arm-none-eabi-objdump -h -S  T6_L15_I2C_OLED.elf  > "T6_L15_I2C_OLED.list"
+arm-none-eabi-objcopy  -O binary  T6_L15_I2C_OLED.elf  "T6_L15_I2C_OLED.bin"
+   text	   data	    bss	    dec	    hex	filename
+  11516	     20	   2748	  14284	   37cc	T6_L15_I2C_OLED.elf
+Finished building: default.size.stdout
+ 
+Finished building: T6_L15_I2C_OLED.bin
+ 
+Finished building: T6_L15_I2C_OLED.list
+ 
+
+15:45:15 Build Finished. 0 errors, 0 warnings. (took 2s.357ms)
+

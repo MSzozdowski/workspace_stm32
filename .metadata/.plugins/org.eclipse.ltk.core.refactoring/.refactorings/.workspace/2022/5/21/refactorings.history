@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Delete resource &apos;T6_L15_I2C_OLED/Core/Src/fonts&apos;" deleteContents="false" description="Delete resource &apos;T6_L15_I2C_OLED/Core/Src/fonts&apos;" element1="/T6_L15_I2C_OLED/Core/Src/fonts" flags="7" id="org.eclipse.ltk.core.refactoring.delete.resources" resources="1" stamp="1652648318374"/>
+</session>

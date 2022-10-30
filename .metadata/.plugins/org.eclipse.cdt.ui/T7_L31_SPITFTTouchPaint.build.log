@@ -1,0 +1,10 @@
+18:31:27 **** Incremental Build of configuration Debug for project T7_L31_SPITFTTouchPaint ****
+make -j4 all 
+arm-none-eabi-size   T7_L31_SPITFTTouchPaint.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26136	     80	   1896	  28112	   6dd0	T7_L31_SPITFTTouchPaint.elf
+Finished building: default.size.stdout
+ 
+
+18:31:27 Build Finished. 0 errors, 0 warnings. (took 307ms)
+

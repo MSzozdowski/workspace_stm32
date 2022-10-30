@@ -1,0 +1,10 @@
+18:00:43 **** Incremental Build of configuration Debug for project T6_L24_I2COLEDBMP280FFT ****
+make -j4 all 
+arm-none-eabi-size   T6_L24_I2COLEDBMP280FFT.elf 
+   text	   data	    bss	    dec	    hex	filename
+ 130668	    492	  13468	 144628	  234f4	T6_L24_I2COLEDBMP280FFT.elf
+Finished building: default.size.stdout
+ 
+
+18:00:44 Build Finished. 0 errors, 0 warnings. (took 408ms)
+

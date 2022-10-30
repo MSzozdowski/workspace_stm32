@@ -1,0 +1,22 @@
+15:45:18 **** Build of configuration Debug for project T6_L15_I2C_OLED_BMP280_FFT ****
+make -j4 all 
+arm-none-eabi-gcc "../Core/Src/GFX_BW.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -DARM_MATH_CM4 -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/GFX_BW.d" -MT"Core/Src/GFX_BW.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/GFX_BW.o"
+arm-none-eabi-gcc "../Core/Src/bmp280.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -DARM_MATH_CM4 -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/bmp280.d" -MT"Core/Src/bmp280.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/bmp280.o"
+arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m4 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F411xE -DARM_MATH_CM4 -c -I../Core/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc -I../Drivers/STM32F4xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F4xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -o "Core/Src/main.o"
+arm-none-eabi-gcc -o "T6_L15_I2C_OLED_BMP280_FFT.elf" @"objects.list"  -larm_cortexM4lf_math -mcpu=cortex-m4 -T"D:\workspace_stm32\T6_L15_I2C_OLED_BMP280_FFT\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T6_L15_I2C_OLED_BMP280_FFT.map" -Wl,--gc-sections -static -L"../Core/Lib" --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: T6_L15_I2C_OLED_BMP280_FFT.elf
+ 
+arm-none-eabi-size   T6_L15_I2C_OLED_BMP280_FFT.elf 
+arm-none-eabi-objdump -h -S  T6_L15_I2C_OLED_BMP280_FFT.elf  > "T6_L15_I2C_OLED_BMP280_FFT.list"
+arm-none-eabi-objcopy  -O binary  T6_L15_I2C_OLED_BMP280_FFT.elf  "T6_L15_I2C_OLED_BMP280_FFT.bin"
+   text	   data	    bss	    dec	    hex	filename
+ 130108	    492	  13484	 144084	  232d4	T6_L15_I2C_OLED_BMP280_FFT.elf
+Finished building: default.size.stdout
+ 
+Finished building: T6_L15_I2C_OLED_BMP280_FFT.bin
+ 
+Finished building: T6_L15_I2C_OLED_BMP280_FFT.list
+ 
+
+15:45:22 Build Finished. 0 errors, 0 warnings. (took 3s.582ms)
+

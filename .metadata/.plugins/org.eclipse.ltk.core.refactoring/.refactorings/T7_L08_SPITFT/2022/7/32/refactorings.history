@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">&#x0A;<refactoring comment="Rename resource &apos;T7_L08_SPITFT/Core/Inc/GFX_BW.h&apos; to &apos;GFX_Color.h&apos;" description="Rename resource &apos;GFX_BW.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Inc/GFX_BW.h" name="GFX_Color.h" stamp="1659297970356" updateReferences="true"/>&#x0A;<refactoring comment="Rename resource &apos;T7_L08_SPITFT/Core/Src/GFX_BW.c&apos; to &apos;GFX_Color.c&apos;" description="Rename resource &apos;GFX_BW.c&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="Core/Src/GFX_BW.c" name="GFX_Color.c" stamp="1659297981898" updateReferences="true"/>
+</session>

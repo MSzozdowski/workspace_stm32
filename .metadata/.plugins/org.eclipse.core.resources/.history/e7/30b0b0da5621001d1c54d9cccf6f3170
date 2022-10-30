@@ -1,0 +1,12 @@
+/*
+ * paint.c
+ *
+ *  Created on: Aug 21, 2022
+ *      Author: Michal
+ */
+
+
+void Paint(void)
+{
+
+}

@@ -1,0 +1,10 @@
+19:30:34 **** Incremental Build of configuration Debug for project T8_L7_L9_SDSPIREAD ****
+make -j4 all 
+arm-none-eabi-size   T8_L7_L9_SDSPIREAD.elf 
+   text	   data	    bss	    dec	    hex	filename
+  26884	    144	   4288	  31316	   7a54	T8_L7_L9_SDSPIREAD.elf
+Finished building: default.size.stdout
+ 
+
+19:30:35 Build Finished. 0 errors, 0 warnings. (took 382ms)
+
