@@ -7,6 +7,8 @@
 		<item key="WizardProjectsImportPage.STORE_CLOSE_CREATED_PROJECTS_ID" value="false"/>
 		<item key="WizardProjectsImportPage.STORE_HIDE_CONFLICTING_PROJECTS_ID" value="false"/>
 		<list key="WizardProjectsImportPage.STORE_DIRECTORIES">
+			<item value="C:\Users\Michal\Desktop\STM32 datasheets\t8_l11_sdspitft-master"/>
+			<item value="E:\t6_l24_i2coledbmp280fft-master"/>
 			<item value="D:\t6_l10_i2cbmp280-master"/>
 			<item value="D:\T5_L9_ADCSingleConversionDMA"/>
 		</list>
@@ -25,5 +27,13 @@
 			<item value="D:\T5_L29_ADCMicrophoneFFT"/>
 			<item value="C:\Users\Michal\Desktop\STM32 datasheets\t5_l29_adcmicrophonefft-master"/>
 		</list>
+	</section>
+	<section name="CleanDialogSettings">
+		<item key="BUILD_NOW" value="true"/>
+		<item key="BUILD_ALL" value="true"/>
+		<item key="TOGGLE_SELECTED" value="false"/>
+		<item key="DIALOG_WIDTH" value="500"/>
+		<item key="DIALOG_HEIGHT" value="467"/>
+		<item key="DIALOG_FONT_NAME" value="1|Segoe UI|9.0|0|WINDOWS|1|-12|0|0|0|400|0|0|0|1|0|0|0|0|Segoe UI"/>
 	</section>
 </section>

@@ -240,7 +240,7 @@ int main(void)
   MX_TIM2_Init();
  8000240:	f000 f90c 	bl	800045c <MX_TIM2_Init>
   /* USER CODE BEGIN 2 */
-  HAL_TIM_Base_Start(&htim1); //timer master
+  HAL_TIM_Base_Start(&htim1); //timer master tim1 po przekreceniu resetuje tim2
  8000244:	4803      	ldr	r0, [pc, #12]	; (8000254 <main+0x2c>)
  8000246:	f001 f9c3 	bl	80015d0 <HAL_TIM_Base_Start>
   HAL_TIM_Base_Start(&htim2); //timer slave

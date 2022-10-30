@@ -12,7 +12,6 @@ RM := rm -rf
 -include Drivers/STM32F4xx_HAL_Driver/Src/subdir.mk
 -include Core/Startup/subdir.mk
 -include Core/Src/subdir.mk
--include subdir.mk
 -include objects.mk
 
 ifneq ($(MAKECMDGOALS),clean)
@@ -35,34 +34,34 @@ $(wildcard ../makefile.init) \
 $(wildcard ../makefile.targets) \
 
 
-BUILD_ARTIFACT_NAME := T5_L9_ADCSingleConversionDMA
+BUILD_ARTIFACT_NAME := T5_L09_ADCSingleConversionDMA
 BUILD_ARTIFACT_EXTENSION := elf
 BUILD_ARTIFACT_PREFIX :=
 BUILD_ARTIFACT := $(BUILD_ARTIFACT_PREFIX)$(BUILD_ARTIFACT_NAME)$(if $(BUILD_ARTIFACT_EXTENSION),.$(BUILD_ARTIFACT_EXTENSION),)
 
 # Add inputs and outputs from these tool invocations to the build variables 
 EXECUTABLES += \
-T5_L9_ADCSingleConversionDMA.elf \
+T5_L09_ADCSingleConversionDMA.elf \
 
 SIZE_OUTPUT += \
 default.size.stdout \
 
 OBJDUMP_LIST += \
-T5_L9_ADCSingleConversionDMA.list \
+T5_L09_ADCSingleConversionDMA.list \
 
 OBJCOPY_BIN += \
-T5_L9_ADCSingleConversionDMA.bin \
+T5_L09_ADCSingleConversionDMA.bin \
 
 
 # All Target
 all: main-build
 
 # Main-build Target
-main-build: T5_L9_ADCSingleConversionDMA.elf secondary-outputs
+main-build: T5_L09_ADCSingleConversionDMA.elf secondary-outputs
 
 # Tool invocations
-T5_L9_ADCSingleConversionDMA.elf: $(OBJS) $(USER_OBJS) D:\workspace_stm32\T5_L9_ADCSingleConversionDMA\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-gcc -o "T5_L9_ADCSingleConversionDMA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\workspace_stm32\T5_L9_ADCSingleConversionDMA\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T5_L9_ADCSingleConversionDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+T5_L09_ADCSingleConversionDMA.elf: $(OBJS) $(USER_OBJS) D:\workspace_stm32\T5_L09_ADCSingleConversionDMA\STM32F411RETX_FLASH.ld makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-gcc -o "T5_L09_ADCSingleConversionDMA.elf" @"objects.list" $(USER_OBJS) $(LIBS) -mcpu=cortex-m4 -T"D:\workspace_stm32\T5_L09_ADCSingleConversionDMA\STM32F411RETX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T5_L09_ADCSingleConversionDMA.map" -Wl,--gc-sections -static --specs=nano.specs -mfpu=fpv4-sp-d16 -mfloat-abi=hard -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -71,19 +70,19 @@ default.size.stdout: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
 	@echo 'Finished building: $@'
 	@echo ' '
 
-T5_L9_ADCSingleConversionDMA.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "T5_L9_ADCSingleConversionDMA.list"
+T5_L09_ADCSingleConversionDMA.list: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objdump -h -S $(EXECUTABLES) > "T5_L09_ADCSingleConversionDMA.list"
 	@echo 'Finished building: $@'
 	@echo ' '
 
-T5_L9_ADCSingleConversionDMA.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
-	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "T5_L9_ADCSingleConversionDMA.bin"
+T5_L09_ADCSingleConversionDMA.bin: $(EXECUTABLES) makefile objects.list $(OPTIONAL_TOOL_DEPS)
+	arm-none-eabi-objcopy  -O binary $(EXECUTABLES) "T5_L09_ADCSingleConversionDMA.bin"
 	@echo 'Finished building: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(SIZE_OUTPUT)$(OBJDUMP_LIST)$(EXECUTABLES)$(OBJS)$(S_DEPS)$(S_UPPER_DEPS)$(C_DEPS)$(OBJCOPY_BIN) T5_L9_ADCSingleConversionDMA.elf
+	-$(RM) T5_L09_ADCSingleConversionDMA.bin T5_L09_ADCSingleConversionDMA.elf T5_L09_ADCSingleConversionDMA.list default.size.stdout
 	-@echo ' '
 
 secondary-outputs: $(SIZE_OUTPUT) $(OBJDUMP_LIST) $(OBJCOPY_BIN)
@@ -95,6 +94,6 @@ fail-specified-linker-script-missing:
 warn-no-linker-script-specified:
 	@echo 'Warning: No linker script specified. Check the linker settings in the build configuration.'
 
-.PHONY: all clean dependents fail-specified-linker-script-missing warn-no-linker-script-specified
+.PHONY: all clean dependents main-build fail-specified-linker-script-missing warn-no-linker-script-specified
 
 -include ../makefile.targets

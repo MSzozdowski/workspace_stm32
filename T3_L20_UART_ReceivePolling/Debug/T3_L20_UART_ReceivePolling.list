@@ -240,9 +240,9 @@ int main(void)
   /* USER CODE BEGIN WHILE */
   while (1)
   {
-	  Status = HAL_UART_Receive(&huart2,Buffer, 10, 2000);
+	  Status = HAL_UART_Receive(&huart2,Buffer, 1, 2000);
  800023c:	f44f 63fa 	mov.w	r3, #2000	; 0x7d0
- 8000240:	220a      	movs	r2, #10
+ 8000240:	2201      	movs	r2, #1
  8000242:	4908      	ldr	r1, [pc, #32]	; (8000264 <main+0x3c>)
  8000244:	4808      	ldr	r0, [pc, #32]	; (8000268 <main+0x40>)
  8000246:	f001 f924 	bl	8001492 <HAL_UART_Receive>
@@ -257,7 +257,7 @@ int main(void)
 	  HAL_Delay(100);
  800025a:	2064      	movs	r0, #100	; 0x64
  800025c:	f000 f9a8 	bl	80005b0 <HAL_Delay>
-	  Status = HAL_UART_Receive(&huart2,Buffer, 10, 2000);
+	  Status = HAL_UART_Receive(&huart2,Buffer, 1, 2000);
  8000260:	e7ec      	b.n	800023c <main+0x14>
  8000262:	bf00      	nop
  8000264:	2000002c 	.word	0x2000002c

@@ -1,10 +1,3 @@
-/*
- * bmp280.h
- *
- *  Created on: Oct 23, 2020
- *      Author: Mateusz Salamon
- */
-
 #ifndef INC_BMP280_H_
 #define INC_BMP280_H_
 

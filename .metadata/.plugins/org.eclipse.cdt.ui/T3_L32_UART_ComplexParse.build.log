@@ -1,25 +1,10 @@
-19:02:11 **** Build of configuration Debug for project T3_L32_UART_ComplexParse ****
+15:44:49 **** Build of configuration Debug for project T3_L32_UART_ComplexParse ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/parser_complex.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/parser_complex.d" -MT"Core/Src/parser_complex.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/parser_complex.o"
-In file included from ../Core/Src/main.c:30:
-../Core/Inc/parser_complex.h:14:13: warning: 'Parser_ParseLED' declared 'static' but never defined [-Wunused-function]
-   14 | static void Parser_ParseLED(void);
-      |             ^~~~~~~~~~~~~~~
-arm-none-eabi-gcc -o "T3_L32_UART_ComplexParse.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\workspace_stm32\T3_L32_UART_ComplexParse\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T3_L32_UART_ComplexParse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -u _printf_float -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: T3_L32_UART_ComplexParse.elf
- 
 arm-none-eabi-size   T3_L32_UART_ComplexParse.elf 
-arm-none-eabi-objdump -h -S  T3_L32_UART_ComplexParse.elf  > "T3_L32_UART_ComplexParse.list"
-arm-none-eabi-objcopy  -O binary  T3_L32_UART_ComplexParse.elf  "T3_L32_UART_ComplexParse.bin"
    text	   data	    bss	    dec	    hex	filename
   31340	    520	   1768	  33628	   835c	T3_L32_UART_ComplexParse.elf
 Finished building: default.size.stdout
  
-Finished building: T3_L32_UART_ComplexParse.bin
- 
-Finished building: T3_L32_UART_ComplexParse.list
- 
 
-19:02:12 Build Finished. 0 errors, 1 warnings. (took 1s.716ms)
+15:44:50 Build Finished. 0 errors, 0 warnings. (took 580ms)
 

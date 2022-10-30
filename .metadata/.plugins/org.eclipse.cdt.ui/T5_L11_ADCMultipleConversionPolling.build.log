@@ -1,4 +1,4 @@
-18:19:52 **** Incremental Build of configuration Debug for project T5_L11_ADCMultipleConversionPolling ****
+15:45:00 **** Build of configuration Debug for project T5_L11_ADCMultipleConversionPolling ****
 make -j4 all 
 arm-none-eabi-size   T5_L11_ADCMultipleConversionPolling.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   T5_L11_ADCMultipleConversionPolling.elf
 Finished building: default.size.stdout
  
 
-18:19:52 Build Finished. 0 errors, 0 warnings. (took 327ms)
+15:45:01 Build Finished. 0 errors, 0 warnings. (took 519ms)
 

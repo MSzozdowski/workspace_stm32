@@ -4,14 +4,18 @@
 		<item key="casesensitive" value="false"/>
 		<item key="wholeword" value="false"/>
 		<item key="isRegEx" value="false"/>
-		<item key="selection" value="map"/>
+		<item key="selection" value="ty"/>
 		<item key="wrap" value="true"/>
 		<item key="incremental" value="false"/>
 		<list key="findhistory">
-			<item value="map"/>
-			<item value="LD2"/>
+			<item value="initialize"/>
+			<item value="GFX_Draw"/>
+			<item value="HAL_ADC_ConvCpltCallback"/>
+			<item value="arm_rfft_fast_f32"/>
 			<item value="ifftFlag"/>
-			<item value="Instance"/>
+			<item value="complexABS"/>
+			<item value="GFX_DrawRoundRectangle"/>
+			<item value="map"/>
 		</list>
 		<list key="replacehistory">
 		</list>

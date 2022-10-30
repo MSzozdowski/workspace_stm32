@@ -6727,40 +6727,40 @@ LOAD d:/stm32cubeide_1.7.0/stm32cubeide/plugins/com.st.stm32cube.ide.mcu.externa
  .debug_macro   0x000000000001a7b6      0x20f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
  .debug_macro   0x000000000001a9c5      0x210 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
 
-.debug_line     0x0000000000000000    0x1a833
+.debug_line     0x0000000000000000    0x1a831
  .debug_line    0x0000000000000000      0xf0a ./Core/Src/GFX_BW.o
  .debug_line    0x0000000000000f0a      0x98e ./Core/Src/SSD1306_OLED.o
  .debug_line    0x0000000000001898      0x7da ./Core/Src/adc.o
- .debug_line    0x0000000000002072      0xa54 ./Core/Src/bmp280.o
- .debug_line    0x0000000000002ac6      0x72d ./Core/Src/dma.o
- .debug_line    0x00000000000031f3      0x74c ./Core/Src/gpio.o
- .debug_line    0x000000000000393f      0x7c4 ./Core/Src/i2c.o
- .debug_line    0x0000000000004103      0xc27 ./Core/Src/main.o
- .debug_line    0x0000000000004d2a      0x733 ./Core/Src/stm32f4xx_hal_msp.o
- .debug_line    0x000000000000545d      0x855 ./Core/Src/stm32f4xx_it.o
- .debug_line    0x0000000000005cb2      0x7f3 ./Core/Src/syscalls.o
- .debug_line    0x00000000000064a5      0x4e9 ./Core/Src/sysmem.o
- .debug_line    0x000000000000698e      0x7b4 ./Core/Src/system_stm32f4xx.o
- .debug_line    0x0000000000007142      0x79d ./Core/Src/tim.o
- .debug_line    0x00000000000078df      0x79c ./Core/Src/usart.o
- .debug_line    0x000000000000807b       0x88 ./Core/Startup/startup_stm32f411retx.o
- .debug_line    0x0000000000008103      0xa1a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
- .debug_line    0x0000000000008b1d     0x11de ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
- .debug_line    0x0000000000009cfb      0xeda ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o
- .debug_line    0x000000000000abd5      0xcc9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
- .debug_line    0x000000000000b89e      0xf7f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
- .debug_line    0x000000000000c81d      0xb54 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
- .debug_line    0x000000000000d371     0x39c6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o
- .debug_line    0x0000000000010d37      0xd96 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
- .debug_line    0x0000000000011acd     0x34e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
- .debug_line    0x0000000000014fb5     0x19b2 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
- .debug_line    0x0000000000016967     0x2aa1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
- .debug_line    0x0000000000019408      0x1ab ../Core/Lib\libarm_cortexM4lf_math.a(arm_rfft_fast_init_f32.o)
- .debug_line    0x00000000000195b3      0x2c2 ../Core/Lib\libarm_cortexM4lf_math.a(arm_rfft_fast_f32.o)
- .debug_line    0x0000000000019875      0x77e ../Core/Lib\libarm_cortexM4lf_math.a(arm_cfft_f32.o)
- .debug_line    0x0000000000019ff3      0x12e ../Core/Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
- .debug_line    0x000000000001a121       0x98 ../Core/Lib\libarm_cortexM4lf_math.a(arm_bitreversal2.o)
- .debug_line    0x000000000001a1b9      0x67a ../Core/Lib\libarm_cortexM4lf_math.a(arm_cfft_radix8_f32.o)
+ .debug_line    0x0000000000002072      0xa52 ./Core/Src/bmp280.o
+ .debug_line    0x0000000000002ac4      0x72d ./Core/Src/dma.o
+ .debug_line    0x00000000000031f1      0x74c ./Core/Src/gpio.o
+ .debug_line    0x000000000000393d      0x7c4 ./Core/Src/i2c.o
+ .debug_line    0x0000000000004101      0xc27 ./Core/Src/main.o
+ .debug_line    0x0000000000004d28      0x733 ./Core/Src/stm32f4xx_hal_msp.o
+ .debug_line    0x000000000000545b      0x855 ./Core/Src/stm32f4xx_it.o
+ .debug_line    0x0000000000005cb0      0x7f3 ./Core/Src/syscalls.o
+ .debug_line    0x00000000000064a3      0x4e9 ./Core/Src/sysmem.o
+ .debug_line    0x000000000000698c      0x7b4 ./Core/Src/system_stm32f4xx.o
+ .debug_line    0x0000000000007140      0x79d ./Core/Src/tim.o
+ .debug_line    0x00000000000078dd      0x79c ./Core/Src/usart.o
+ .debug_line    0x0000000000008079       0x88 ./Core/Startup/startup_stm32f411retx.o
+ .debug_line    0x0000000000008101      0xa1a ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal.o
+ .debug_line    0x0000000000008b1b     0x11de ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc.o
+ .debug_line    0x0000000000009cf9      0xeda ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_adc_ex.o
+ .debug_line    0x000000000000abd3      0xcc9 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_cortex.o
+ .debug_line    0x000000000000b89c      0xf7f ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_dma.o
+ .debug_line    0x000000000000c81b      0xb54 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_gpio.o
+ .debug_line    0x000000000000d36f     0x39c6 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_i2c.o
+ .debug_line    0x0000000000010d35      0xd96 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_rcc.o
+ .debug_line    0x0000000000011acb     0x34e8 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim.o
+ .debug_line    0x0000000000014fb3     0x19b2 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_tim_ex.o
+ .debug_line    0x0000000000016965     0x2aa1 ./Drivers/STM32F4xx_HAL_Driver/Src/stm32f4xx_hal_uart.o
+ .debug_line    0x0000000000019406      0x1ab ../Core/Lib\libarm_cortexM4lf_math.a(arm_rfft_fast_init_f32.o)
+ .debug_line    0x00000000000195b1      0x2c2 ../Core/Lib\libarm_cortexM4lf_math.a(arm_rfft_fast_f32.o)
+ .debug_line    0x0000000000019873      0x77e ../Core/Lib\libarm_cortexM4lf_math.a(arm_cfft_f32.o)
+ .debug_line    0x0000000000019ff1      0x12e ../Core/Lib\libarm_cortexM4lf_math.a(arm_common_tables.o)
+ .debug_line    0x000000000001a11f       0x98 ../Core/Lib\libarm_cortexM4lf_math.a(arm_bitreversal2.o)
+ .debug_line    0x000000000001a1b7      0x67a ../Core/Lib\libarm_cortexM4lf_math.a(arm_cfft_radix8_f32.o)
 
 .debug_str      0x0000000000000000    0xa0717
  .debug_str     0x0000000000000000    0x974b5 ./Core/Src/GFX_BW.o

@@ -1,10 +1,3 @@
-/*
- * bmp280.c
- *
- *  Created on: Oct 23, 2020
- *      Author: Mateusz Salamon
- */
-
 #include "main.h"
 #include "bmp280.h"
 

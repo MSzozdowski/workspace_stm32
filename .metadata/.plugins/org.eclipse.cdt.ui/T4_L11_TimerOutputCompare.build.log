@@ -1,4 +1,4 @@
-19:00:00 **** Build of configuration Debug for project T4_L11_TimerOutputCompare ****
+15:44:53 **** Build of configuration Debug for project T4_L11_TimerOutputCompare ****
 make -j4 all 
 arm-none-eabi-size   T4_L11_TimerOutputCompare.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   T4_L11_TimerOutputCompare.elf
 Finished building: default.size.stdout
  
 
-19:00:00 Build Finished. 0 errors, 0 warnings. (took 341ms)
+15:44:53 Build Finished. 0 errors, 0 warnings. (took 383ms)
 

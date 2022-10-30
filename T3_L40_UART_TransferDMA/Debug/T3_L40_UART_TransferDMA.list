@@ -269,8 +269,6 @@ int main(void)
  8000264:	f7ff ff72 	bl	800014c <MX_DMA_Init>
   MX_USART2_UART_Init();
  8000268:	f000 f93c 	bl	80004e4 <MX_USART2_UART_Init>
-
-
   /* Initialize interrupts */
   MX_NVIC_Init();
  800026c:	f000 f865 	bl	800033a <MX_NVIC_Init>

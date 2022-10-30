@@ -2,5 +2,5 @@ button.c:11:6:ButtonInitKey	24	static
 button.c:21:6:ButtonRegisterPressCallBack	16	static
 button.c:26:6:ButtonIdleRoutine	16	static
 button.c:35:6:ButtonDebounceRoutine	16	static
-button.c:55:6:ButtonPressedRoutine	16	static
-button.c:63:6:ButtonTask	16	static
+button.c:54:6:ButtonPressedRoutine	16	static
+button.c:62:6:ButtonTask	16	static

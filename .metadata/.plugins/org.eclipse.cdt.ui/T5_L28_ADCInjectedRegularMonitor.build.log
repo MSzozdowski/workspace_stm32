@@ -1,4 +1,4 @@
-20:19:11 **** Build of configuration Debug for project T5_L28_ADCInjectedRegularMonitor ****
+15:45:08 **** Build of configuration Debug for project T5_L28_ADCInjectedRegularMonitor ****
 make -j4 all 
 arm-none-eabi-size   T5_L28_ADCInjectedRegularMonitor.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size   T5_L28_ADCInjectedRegularMonitor.elf
 Finished building: default.size.stdout
  
 
-20:19:12 Build Finished. 0 errors, 0 warnings. (took 318ms)
+15:45:09 Build Finished. 0 errors, 0 warnings. (took 508ms)
 

@@ -1,20 +1,10 @@
-19:28:51 **** Incremental Build of configuration Debug for project T4_L07_TimerNormal ****
+15:44:51 **** Build of configuration Debug for project T4_L07_TimerNormal ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc -o "T4_L07_TimerNormal.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\workspace_stm32\T4_L07_TimerNormal\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T4_L07_TimerNormal.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: T4_L07_TimerNormal.elf
- 
 arm-none-eabi-size   T4_L07_TimerNormal.elf 
-arm-none-eabi-objdump -h -S  T4_L07_TimerNormal.elf  > "T4_L07_TimerNormal.list"
-arm-none-eabi-objcopy  -O binary  T4_L07_TimerNormal.elf  "T4_L07_TimerNormal.bin"
    text	   data	    bss	    dec	    hex	filename
    8140	     20	   1780	   9940	   26d4	T4_L07_TimerNormal.elf
 Finished building: default.size.stdout
  
-Finished building: T4_L07_TimerNormal.bin
- 
-Finished building: T4_L07_TimerNormal.list
- 
 
-19:28:52 Build Finished. 0 errors, 0 warnings. (took 939ms)
+15:44:52 Build Finished. 0 errors, 0 warnings. (took 447ms)
 

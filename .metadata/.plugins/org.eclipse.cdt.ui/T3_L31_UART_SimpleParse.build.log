@@ -1,21 +1,10 @@
-19:00:21 **** Build of configuration Debug for project T3_L31_UART_SimpleParse ****
+15:44:49 **** Build of configuration Debug for project T3_L31_UART_SimpleParse ****
 make -j4 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-arm-none-eabi-gcc "../Core/Src/parser_simple.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -MMD -MP -MF"Core/Src/parser_simple.d" -MT"Core/Src/parser_simple.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/parser_simple.o"
-arm-none-eabi-gcc -o "T3_L31_UART_SimpleParse.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\workspace_stm32\T3_L31_UART_SimpleParse\STM32F103RBTX_FLASH.ld" --specs=nosys.specs -Wl,-Map="T3_L31_UART_SimpleParse.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: T3_L31_UART_SimpleParse.elf
- 
 arm-none-eabi-size   T3_L31_UART_SimpleParse.elf 
-arm-none-eabi-objdump -h -S  T3_L31_UART_SimpleParse.elf  > "T3_L31_UART_SimpleParse.list"
-arm-none-eabi-objcopy  -O binary  T3_L31_UART_SimpleParse.elf  "T3_L31_UART_SimpleParse.bin"
    text	   data	    bss	    dec	    hex	filename
    8784	     20	   1692	  10496	   2900	T3_L31_UART_SimpleParse.elf
 Finished building: default.size.stdout
  
-Finished building: T3_L31_UART_SimpleParse.bin
- 
-Finished building: T3_L31_UART_SimpleParse.list
- 
 
-19:00:23 Build Finished. 0 errors, 0 warnings. (took 1s.572ms)
+15:44:49 Build Finished. 0 errors, 0 warnings. (took 565ms)
 

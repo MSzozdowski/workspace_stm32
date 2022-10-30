@@ -135,9 +135,10 @@ void DrawScreen(void)
 		  uint16_t x,y;
 		  uint8_t ColorButtonNubmer;
 		  XPT2046_GetTouchPoint(&x, &y);
-		  if((x > DRAW_WINDOW_X_START) && (x < DRAW_WINDOW_X_STOP) && (y > DRAW_WINDOW_Y_START) && (y < DRAW_WINDOW_Y_STOP))
+		  if((x > DRAW_WINDOW_X_START) && (x < DRAW_WINDOW_X_STOP) && (y > DRAW_WINDOW_Y_START) && (y < DRAW_WINDOW_Y_STOP+30))
 		  {
-			  GFX_DrawPixel(x, y, CurrentColor);
+			  //GFX_DrawPixel(x, y, CurrentColor);
+			  GFX_DrawFillCircle(x,y,2,CurrentColor);
 		  }
 
 		  ColorButtonNubmer = IsColorButtonTouched(x, y);
