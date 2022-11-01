@@ -1,0 +1,8 @@
+GFX_EnhancedFonts.c:10:6:EF_SetFont	16	static
+GFX_EnhancedFonts.c:15:9:EF_GetFontHeight	4	static
+GFX_EnhancedFonts.c:20:9:EF_GetFontStartChar	4	static
+GFX_EnhancedFonts.c:25:9:EF_GetFontEndChar	4	static
+GFX_EnhancedFonts.c:30:9:EF_GetFontSpaceWidth	4	static
+GFX_EnhancedFonts.c:35:6:EF_DecodePolish	16	static
+GFX_EnhancedFonts.c:113:9:EF_PutChar	56	static
+GFX_EnhancedFonts.c:194:9:EF_PutString	56	static
